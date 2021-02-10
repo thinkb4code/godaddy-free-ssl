@@ -1,0 +1,32 @@
+{
+  "name": "godaddy-free-ssl",
+  "version": "1.0.0",
+  "description": "This utillity is created to help domain/web owner to acquire free 3 month wild card SSL certificate, which can be used in Godaddy shared hosting. To obtain the SSL Certificate, we use Let's Encrypt service.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkb4code/godaddy-free-ssl.git"
+  },
+  "keywords": [
+    "free",
+    "ssl",
+    "let's",
+    "encrypt",
+    "acme",
+    "client",
+    "GUI",
+    "godaddy"
+  ],
+  "author": "https://thinkb4code.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thinkb4code/godaddy-free-ssl/issues"
+  },
+  "homepage": "https://github.com/thinkb4code/godaddy-free-ssl#readme",
+  "devDependencies": {
+    "electron": "^11.2.3"
+  }
+}
